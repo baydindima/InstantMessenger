@@ -1,0 +1,7 @@
+option java_package = "edu.design.messenger.network";
+option java_outer_classname = "Message";
+
+message TextMessage {
+    optional string nick = 1;
+    optional string text = 5;
+}
